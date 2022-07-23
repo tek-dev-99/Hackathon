@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+/* font-family:'Poppins', sans-serif; */
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+     }
+
+.card{
+    display: flex;    
+    width:45%;
+    height: auto;       
+    border: 2px solid lightgray;
+    border-radius: 16px;
+    padding: 15px;    
+    }
+
+img{
+    height: 270px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-right: 10px;
+ }
+ .content{
+    font-family:'Poppins', sans-serif;
+    margin-left: 10px;
+      }
+ h1{
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.2;
+ }
+ .small{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 8px 0px; 
+ }
+.offer{
+    background-color:  #FFB830;
+    width: 120px;
+    color: white;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 16px;
+    font-weight: 500;
+    margin: 8px 0px;
+}
+.price{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 8px 0px;
+}
+.cut{
+    text-decoration: line-through;
+    color: gray;   
+}
+.purchase-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    border: 2px solid black;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+.wishlist-btn{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
